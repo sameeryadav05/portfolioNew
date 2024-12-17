@@ -44,9 +44,11 @@ section{
 }
 .logo{
     font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 700;
-    cursor: default;
+    color: transparent;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazg5MnF0bHd1Z3dvNWtpdWtqeXEwaDcyOGt1Y2Rrdmt4cGFzMTZnbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT1XGZndeDLlWvSDaU/giphy.gif");
+    background-position: center;
+    word-spacing: 2px;
+    -webkit-background-clip:text;
 }
 .navbar a{
     font-size: 1.5rem;
@@ -70,9 +72,6 @@ section{
 }
 #nav-item:hover{
     color: var(--main-color);
-}
-.logo:hover{
-    color: goldenrod;
 }
 .home-content h3{
     font-size: 3.2rem;
